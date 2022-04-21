@@ -8,14 +8,6 @@ export function createDailyNews():void{
     
   }
   
-//get all news
-export function getNews():string{
-  let news="";
-  for(let i=0;i<dailyNews.length;i++){
-    news+=dailyNews[i].text+" ";
-  }
-  return news;
-}
 
 //get news by index
 export function getNewsByIndex(index:i32):string{
