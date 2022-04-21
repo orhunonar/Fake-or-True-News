@@ -1,4 +1,4 @@
-### Fake or True News
+# Fake or True News
  
 ## Summary
 
@@ -49,31 +49,31 @@ near deploy ./build/release/singleton.wasm
 
 - We finished our preperation. Now, we can take a look at the functions on index.ts.
 
-# createDailyNews()
+### createDailyNews()
 
 This function only can be called by the authorized user. I authorize myself. You need to exchange the "orhun.testnet" account id with your own account id on line 5.
 
 Also, you can change the new on line 6. In this example, the news is: "Elon Musk is going to be the next president of the United States".
 
-# getNewsbyIndex()
+### getNewsbyIndex()
 
 This function make able to you see the news on the index. You need to give index 0 because we create only 1 news.
 
-# addMessage()
+### addMessage()
 
 This function make able to you add a message which fake or true to the news. You can not add a message which is not fake or true. 
 
 If message is true. Approval rate of news will increase. If message is false.Approval rate of news will decrease.
 
-# getApproval()
+### getApproval()
 
 This function make able to you see the approval rate of the news. If the approval rate is more than 0, the news is likely to be true based on the number of users. If the approval rate is less than 0, the news is likely to be fake based on the number of users.
 
-# getAllMessages()
+### getAllMessages()
 
 This function make able to you see all the messages which are added to the news.
 
-## Example Usage
+### Example Usage
 
 ```
 yarn
