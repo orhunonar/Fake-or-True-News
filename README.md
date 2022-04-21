@@ -21,9 +21,9 @@ Also, you have to use your testnet account. If you don’t have one - create.
 
 You can clone the project from 
     
-    ```
-    git clone https://github.com/orhunonar/Fake-or-True-News.git
-    ```
+```
+git clone https://github.com/orhunonar/Fake-or-True-News.git
+```
 
 I used the starter near project as a based of my project. You can find it here:
 
