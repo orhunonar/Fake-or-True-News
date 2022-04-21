@@ -1,11 +1,6 @@
 import { Context } from 'near-sdk-as';
 import {CheckNews,message,DailyNews,dailyNews} from './model';
 
-//orhun.testnet kullanıcı adına sahip kişi dailynews'de haber oluşturacak
-// herkes haberleri görebilecek
-// herkes haberi onaylayabilir
-
-
 export function createDailyNews():void{
    assert(Context.predecessor=="orhun.testnet","only orhun.testnet can create daily news");
    let text=  "Elon Musk is going to be the next president of the United States";
