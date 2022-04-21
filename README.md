@@ -1,5 +1,7 @@
 # Fake or True News
  
+- Video Link = https://www.loom.com/share/2244316936c14e61aeb5abf71494013b
+
 ## Summary
 
 In this project, I write a program that users can says the new is fake or true. Approval rate of new will change according to the number of users who say the new is fake or true. This way, people will be able to spot fake news more easily. The community whic judge the new is fake or true work like a DAO (Decentralized Autonomous Organization). This is the first phase of my project. I will continue to develop this project in the future to make it more efficient and I will add more features.
