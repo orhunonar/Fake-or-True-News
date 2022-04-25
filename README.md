@@ -90,7 +90,7 @@ yarn build:release
 
 near login
 
-near deploy ./build/release/singleton.wasm
+near dev-deploy ./build/release/singleton.wasm
 
 export CONTRACT=<YOUR_ACCOUNT>
 
