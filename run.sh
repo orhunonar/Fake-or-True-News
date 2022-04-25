@@ -1,5 +1,5 @@
 #!/bin/bash
-
+npm install -g near-cli
 yarn
 near login
 yarn build:release  
