@@ -1,7 +1,4 @@
 #!/bin/bash
-npm install -g near-cli
-yarn
-near login
 yarn build:release  
 near dev-deploy ./build/release/singleton.wasm
 export CONTRACT=$account_id
